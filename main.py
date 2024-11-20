@@ -17,6 +17,7 @@ def get_book_text(path):
 
 def count_words(text):
     words = text.split()
+    print(words)
     return len(words)
 
 def count_char(text):
